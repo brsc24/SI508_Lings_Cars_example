@@ -2,6 +2,9 @@ import requests
 import json
 from datetime import datetime
 
+
+#added some lines for 1108 exercise 
+
 DATETIME_FORMAT = "%Y-%m-%d %H:%M:%S.%f"
 DEBUG = True
 
@@ -71,8 +74,3 @@ class Cache:
         }
 
         self._save_to_disk()
-
-
-
-
-
